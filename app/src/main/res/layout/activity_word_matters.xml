@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WordMattersActivity"
+    android:background="@drawable/bgapp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:drawableTop="@drawable/ic_arrow_back_black_24dp"
+        android:paddingTop="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/bgapp"/>
+
+   <TextView
+        android:id="@+id/txtscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="In Fight Battle"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"/>
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/bgquestion"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtquestion"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#332FA2"
+            android:textSize="26sp"
+            android:lineSpacingExtra="6dp"
+            android:text="Guess Building in English language"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_marginBottom="70dp"
+        android:padding="10dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:textColor="#332FA2"
+        android:textSize="32sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/bgpurple"
+        android:layout_width="200dp"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:text="Ammo"
+        android:textSize="20sp"
+        android:textColor="#FFF"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/layoutParent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+</LinearLayout>
